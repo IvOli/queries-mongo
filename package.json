@@ -1,0 +1,25 @@
+{
+  "name": "queries-mongo",
+  "version": "1.0.0",
+  "description": "Ejercicios de queries de mongo con una base de datos de restaurantes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvOli/queries-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvOli/queries-mongo/issues"
+  },
+  "homepage": "https://github.com/IvOli/queries-mongo#readme",
+  "dependencies": {
+    "mongoose": "^6.5.2"
+  }
+}
