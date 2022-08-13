@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import ejercicio1 from "./ejercicios/ejercicio1.js";
+import ejercicio2 from "./ejercicios/ejercicio2.js";
 
 const db = mongoose.connection;
 
@@ -25,8 +26,10 @@ mongoose.connect('mongodb://127.0.0.1:27017/Queries', async() => {
     console.log('Ejercicios:');
     /**
      * 1.- Entregue todos los documentos de la colección restaurants
+     * 2.- Entregue los campos restaurant_id, name, borough y cousine de todos los documentos.
      */
-     await ejercicio1();
+    //  await ejercicio1();
+    await ejercicio2();
 });
 
 
