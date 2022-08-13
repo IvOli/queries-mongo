@@ -3,6 +3,7 @@ import ejercicio1 from "./ejercicios/ejercicio1.js";
 import ejercicio2 from "./ejercicios/ejercicio2.js";
 import ejercicio3 from "./ejercicios/ejercicio3.js";
 import ejercicio4 from "./ejercicios/ejercicio4.js";
+import ejercicio5 from "./ejercicios/ejercicio5.js";
 
 const db = mongoose.connection;
 
@@ -31,11 +32,13 @@ mongoose.connect('mongodb://127.0.0.1:27017/Queries', async() => {
      * 2.- Entregue los campos restaurant_id, name, borough y cuisine de todos los documentos.
      * 3.- Función que imprima los primeros 5 restaurantes de "Bronx" que se encuentren en la base.
      * 4.- Función que imprima los restaurantes que tengan al menos una calificación (grade) mayor a 9.
+     * 5.- Función que imprima los primero 10 restaurante que lleven cocina americana(cuisine) ordenados por su nombre alfabeticamente.
      */
     //  await ejercicio1();
     // await ejercicio2();
     // await ejercicio3();
-    await ejercicio4();
+    // await ejercicio4();
+    await ejercicio5();
 });
 
 
