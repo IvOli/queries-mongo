@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import ejercicio1 from "./ejercicios/ejercicio1.js";
 import ejercicio2 from "./ejercicios/ejercicio2.js";
+import ejercicio3 from "./ejercicios/ejercicio3.js";
 
 const db = mongoose.connection;
 
@@ -26,10 +27,12 @@ mongoose.connect('mongodb://127.0.0.1:27017/Queries', async() => {
     console.log('Ejercicios:');
     /**
      * 1.- Entregue todos los documentos de la colección restaurants
-     * 2.- Entregue los campos restaurant_id, name, borough y cousine de todos los documentos.
+     * 2.- Entregue los campos restaurant_id, name, borough y cuisine de todos los documentos.
+     * 3.- Función que imprima los primeros 5 restaurantes de "Bronx" que se encuentren en la base.
      */
     //  await ejercicio1();
-    await ejercicio2();
+    // await ejercicio2();
+    await ejercicio3();
 });
 
 
